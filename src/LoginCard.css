@@ -1,0 +1,354 @@
+/* LoginCard.css */
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff; /* Add a background color */
+    margin: auto; /* Center the card horizontally */
+    margin-top: 20vh; /* Adjust vertical position */
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* LoginCard.css */
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    text-align: center;
+    background-color: #fff; /* Add a background color */
+    margin: auto; /* Center the card horizontally */
+    margin-top: 20vh; /* Adjust vertical position */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px; /* Increase padding for better appearance */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #f2f2f2; /* Add background color for input fields */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+/* 3rd edit   */
+/* LoginCard.css */
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    text-align: center;
+    background-color: #fff; /* Add a background color */
+    margin: auto; /* Center the card horizontally */
+    margin-top: 20vh; /* Adjust vertical position */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    padding: 0 10px; /* Add padding on left and right sides */
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px); /* Subtract padding from input width */
+    padding: 10px; /* Increase padding for better appearance */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #f2f2f2; /* Add background color for input fields */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 4th edit having the style for card hover style  */
+
+  /* LoginCard.css */
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    text-align: center;
+    background-color: #fff; /* Add a background color */
+    margin: auto; /* Center the card horizontally */
+    margin-top: 20vh; /* Adjust vertical position */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smoother effect */
+  }
+  
+  .login-card:hover {
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    padding: 0 10px; /* Add padding on left and right sides */
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px); /* Subtract padding from input width */
+    padding: 10px; /* Increase padding for better appearance */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #f2f2f2; /* Add background color for input fields */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 5th edit Making the hover effect permanent */
+
+  /* LoginCard.css */
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    text-align: center;
+    background-color: #2a91f1; /* Add a background color */
+    margin: auto; /* Center the card horizontally */
+    margin-top: 20vh; /* Adjust vertical position */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smoother effect */
+  }
+  
+  .login-card:hover,
+  .login-card:focus {
+    transform: translateY(-5px); /* Move the card up slightly */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    padding: 0 10px; /* Add padding on left and right sides */
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px); /* Subtract padding from input width */
+    padding: 10px; /* Increase padding for better appearance */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #f2f2f2; /* Add background color for input fields */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* 6th edit making hover effect still */
+  /* LoginCard.css */
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    text-align: center;
+    background-color: #fff; /* Add a background color */
+    margin: auto; /* Center the card horizontally */
+    margin-top: 20vh; /* Adjust vertical position */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+    transform: translateY(-5px); /* Move the card up slightly */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smoother effect */
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    padding: 0 10px; /* Add padding on left and right sides */
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px); /* Subtract padding from input width */
+    padding: 10px; /* Increase padding for better appearance */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #f2f2f2; /* Add background color for input fields */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* 7th edit Adding bg image to it  */
+
+  /* LoginCard.css */
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    text-align: center;
+    background-color:none; /* Add a background color */
+    
+    
+    /* margin-bottom: 50%; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+    transform: translateY(-5px); /* Move the card up slightly */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smoother effect */
+    float: right;
+    /*background-image: url('hd6.jpeg'); /* Add background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    padding: 0 10px; /* Add padding on left and right sides */
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px); /* Subtract padding from input width */
+    padding: 10px; /* Increase padding for better appearance */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #f2f2f2; /* Add background color for input fields */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #7bbef5;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* 8th edit transparency  */
+
+  /* LoginCard.css */
+/* LoginCard.css */
+/* LoginCard.css */
+.login-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  position: fixed;
+  top: -25px; /* Adjust top position as needed */
+  right: -600px; /* Adjust right position as needed */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+ 
+}
+/* LoginCard.css */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+/* Rest of your Login Card CSS styles */
